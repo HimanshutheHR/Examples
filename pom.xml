@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.hr</groupId>
-    <artifactId>Threads</artifactId>
+    <artifactId>Examples</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
