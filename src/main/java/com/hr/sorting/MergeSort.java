@@ -6,6 +6,7 @@ import java.util.Random;
 public class MergeSort {
 
     public static void main(String[] args) {
+        System.out.println("Merge Sort");
         int capacity = 20;
         int[] arr = new int[capacity];
         Random random =  new Random();
@@ -47,7 +48,7 @@ public class MergeSort {
         int i = 0 ;
         int j = 0;
         int k = 0;
-        while(i<left.length && j< right.length){
+        while(i<left.length && j<right.length){
 
             if(left[i]<right[j]){
                 arr[k]=left[i];
@@ -60,10 +61,10 @@ public class MergeSort {
             }
         }
 
-        if(i<left.length){
+        while(i<left.length){
             arr[k++]=left[i++];
         }
-        if(j<right.length){
+        while(j<right.length){
             arr[k++]=right[j++];
         }
     }
